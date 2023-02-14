@@ -1,0 +1,73 @@
+.contact-section {
+    height: 850px;
+    padding-bottom: 50px;
+    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+
+.contact-form-design {
+    margin-top: 50px;
+}
+#dark .contact-section {
+background-color: rgb(37, 26, 47);
+box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+     color: rgb(202, 186, 186);
+}
+
+.contact-form-image img {
+    margin-top: 50px;
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.contact-form input, .custom-select-tag{
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#dark .contact-form input, #dark .custom-select-tag, #dark .contact-form textarea {
+    background-color: rgb(37, 26, 47);
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+
+}
+.contact-form textarea  {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.button-submit p{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 30px;
+    color: bisque;
+    width: 50%;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.button-submit p:hover{
+    background-color: black;
+    transition-duration: 1s;
+}
+
+@media (max-width: 1000px) {
+        .contact-section {
+            height: auto;
+        }
+    }

@@ -1,0 +1,94 @@
+.techstack-section {
+    margin-block: 40px;
+    height: auto;
+
+}
+
+.section-title {
+    text-align: center;
+    /* color: white; */
+
+}
+.tech-content {
+    
+    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    padding: 10px;
+    color: black;
+    margin-top: 50px;
+}
+
+#dark .tech-content {
+    background-color: rgb(37, 26, 47);
+box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+     color: rgb(202, 186, 186);
+
+
+}
+#dark .tech-content:hover {
+    background-color: rgb(58, 48, 69);
+    transition-duration: 1s;
+}
+
+.tech-content-marked {
+    background-color: chocolate;
+}
+
+.about-title h5 {
+        text-align: center;
+    }
+
+.tech-content p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tech-content:hover {
+    background-color: #ff854C;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+    box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
+.tech-number {
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    margin-top: -30px;
+
+}
+
+.load-more-tech-stack {
+    background-color: tomato;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: table;
+    margin-inline: auto;
+    margin-block: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.load-more-tech-stack:hover {
+    background-color: chocolate;
+    transition-duration: 1s;
+}
