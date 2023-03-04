@@ -26,18 +26,21 @@ const About = () => {
             </Flip>
             <Fade right>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-                reprehenderit ipsam laborum voluptas blanditiis nemo, architecto
-                illum amet culpa quasi esse numquam iusto. Adipisci placeat
-                dignissimos eligendi mollitia magni. Veniam! Veritatis
-                laudantium excepturi eum expedita tempora quibusdam nisi
-                voluptates itaque, obcaecati et, repellendus autem accusamus
-                ratione aliquam aperiam dolore veniam ipsum reprehenderit ut
-                earum, ex optio quaerat. Quas, nostrum recusandae. Amet ad
-                officia maiores quasi reprehenderit, nulla tempore, aliquid unde
-                laudantium fuga dolorem ipsa repellat error sit! Eos, aspernatur
-                laboriosam officia incidunt repudiandae soluta hic cumque odit
-                fugiat in vero!
+                Welcome to my portfolio! I am a React developer with a passion
+                for creating dynamic and responsive user interfaces. With
+                experience in building complex web applications and mobile apps,
+                I have a deep understanding of the React ecosystem and its
+                various tools and libraries.{" "}
+              </p>
+        
+              <p>
+                Whether you need a custom React application, integration with
+                APIs or third-party services, or ongoing maintenance and support
+                for your existing React application, I am excited to work with
+                you and help you achieve your goals. Please take a look at my
+                portfolio to see some of my past projects, and feel free to
+                contact me if you have any questions or would like to discuss
+                your next project.
               </p>
             </Fade>
           </div>
