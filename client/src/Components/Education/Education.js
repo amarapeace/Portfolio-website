@@ -10,9 +10,9 @@ import { FaGraduationCap } from "react-icons/fa";
 const Education = () => {
     const data = [
       {
-        name: "Nnamdi Azikiwe University, Awka",
-        degree: "B.Eng in Chemical Engineering",
-        year: "2011-2016",
+        name: "ALX- Holberton School of Software Engineering",
+        degree: "Diploma in Software Engineering",
+        year: "2023-2022",
       },
       {
         name: "Lagos State University, Ojo",
@@ -20,9 +20,9 @@ const Education = () => {
         year: "2020-2022",
       },
       {
-        name: "ALX- Holberton School of Software Engineering",
-        degree: "Diploma in Software Engineering",
-        year: "2023-2022",
+        name: "Nnamdi Azikiwe University, Awka",
+        degree: "B.Eng in Chemical Engineering",
+        year: "2011-2016",
       },
     ];
 

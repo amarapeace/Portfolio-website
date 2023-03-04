@@ -30,8 +30,10 @@ const Home = ({ theme, changeTheme }) => {
             <Typewriter
               options={{
                 strings: [
-                  "Full Stack Software Developer",
-                  "Frontend Web Developer (REACT)",
+                  "Software Developer",
+                  "Frontend Web Developer",
+                  "REACT Developer",
+                  "Great Collaborator"
                 ],
                 autoStart: true,
                 loop: true,

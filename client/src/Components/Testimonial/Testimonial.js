@@ -10,39 +10,39 @@ const Testimonial = () => {
 
     const data = [
       {
-        name: "Chioma",
+        name: "Debby",
         position: "Operations Officer",
-        des: "I like his work and his commitment in giving out the best",
+        des: "I like Amara's work and her commitment in giving out the best.",
         img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
       },
       {
-        name: "Chioma",
+        name: "Torrie",
         position: "UI/UX Designer",
-        des: "I like his work and his commitment in giving out the best",
+        des: "Amara is always patient and ready to give you a great work.",
         img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
       },
       {
-        name: "Chioma",
+        name: "Tega",
         position: "Operations Officer",
-        des: "I like his work and his commitment in giving out the best",
+        des: "I like her way of relating to clients and making sure you are satisfied.",
         img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
       },
       {
-        name: "Chioma",
+        name: "Mistura",
         position: "Operations Officer",
-        des: "I like his work and his commitment in giving out the best",
+        des: "I enjoyed my time working together with her. Her energy is everything. ",
         img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
       },
       {
-        name: "Chioma",
+        name: "Rajeev",
         position: "Operations Officer",
-        des: "I like his work and his commitment in giving out the best",
+        des: "Job well done, I'm definitely coming back with more jobs for you. Guys, she's the real deal.",
         img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
       },
       {
-        name: "Chioma",
+        name: "Coded Libra",
         position: "Operations Officer",
-        des: "I like his work and his commitment in giving out the best",
+        des: "She sure knows how to make a client very happy. I highly recommend.",
         img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
       },
     ];

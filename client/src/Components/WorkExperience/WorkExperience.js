@@ -11,68 +11,68 @@ const WorkExperience = () => {
 
     const data = [
       {
-        companyname: "Google",
-        position: "Full Stack Developer",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet corrupti nemo omnis cumque repellat iste aliquam ",
-        year: "2019",
+        companyname: "Hotels Nigeria (HNG)",
+        position: "Frontend Developer",
+        des: "Internship program that got me working with a team of developers to develop a full-blown project. ",
+        year: "2022",
         techskills: [
           {
             techname: "React js",
           },
           {
-            techname: "React js",
+            techname: "Javascript",
           },
           {
-            techname: "React js",
+            techname: "HTML/CSS",
           },
           {
-            techname: "React js",
+            techname: "Git/Github",
           },
         ],
       },
       {
-        companyname: "Facebook",
-        position: "Full Stack Developer",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet corrupti nemo omnis cumque repellat iste aliquam ",
-        year: "2019",
+        companyname: "Dangote Refinery",
+        position: "Process Engineer",
+        des: "Member of the Precommissioning and commissioning team of one of the largest petroleum refineries in the world. ",
+        year: "2019 to date",
+        techskills: [
+          {
+            techname: "SAP",
+          },
+          {
+            techname: "PCAMS",
+          },
+          {
+            techname: "PPIS",
+          },
+          {
+            techname: "Excel",
+          },
+        ],
+      },
+      {
+        companyname: "Joslin Plus",
+        position: "Freelancer",
+        des: "Frontend web developer for a physical and digital product sales company.",
+        year: "2020",
         techskills: [
           {
             techname: "React js",
           },
           {
-            techname: "React js",
+            techname: "Javascript",
           },
           {
-            techname: "React js",
+            techname: "Bootstrap",
           },
           {
-            techname: "React js",
+            techname: "Git/Github",
           },
         ],
       },
       {
-        companyname: "Youtube",
-        position: "Full Stack Developer",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet corrupti nemo omnis cumque repellat iste aliquam ",
-        year: "2019",
-        techskills: [
-          {
-            techname: "React js",
-          },
-          {
-            techname: "React js",
-          },
-          {
-            techname: "React js",
-          },
-          {
-            techname: "Express js",
-          },
-        ],
-      },
-      {
-        companyname: "Microsoft",
-        position: "Full Stack Developer",
+        companyname: "ALX Room",
+        position: "Volunteer",
         des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet corrupti nemo omnis cumque repellat iste aliquam ",
         year: "2019-2022",
         techskills: [
@@ -90,46 +90,7 @@ const WorkExperience = () => {
           },
         ],
       },
-      {
-        companyname: "Microsoft",
-        position: "Full Stack Developer",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet corrupti nemo omnis cumque repellat iste aliquam ",
-        year: "2019-2022",
-        techskills: [
-          {
-            techname: "Javascript",
-          },
-          {
-            techname: "Next js",
-          },
-          {
-            techname: "React js",
-          },
-          {
-            techname: "Node js",
-          },
-        ],
-      },
-      {
-        companyname: "Microsoft",
-        position: "Full Stack Developer",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet corrupti nemo omnis cumque repellat iste aliquam ",
-        year: "2019-2022",
-        techskills: [
-          {
-            techname: "Javascript",
-          },
-          {
-            techname: "Next js",
-          },
-          {
-            techname: "React js",
-          },
-          {
-            techname: "Node js",
-          },
-        ],
-      },
+      
     ];
 
     const colors = [

@@ -17,14 +17,17 @@ const TechStack = () => {
     "#CA6F1E",
     "#A6ACAF",
     "#283747",
+    "#229954",
+    "#D4AC0D",
+    "#CA6F1E"
   ];
 
   const data = [
     {
-      name: "Full Stack Developer",
+      name: "Node js",
     },
     {
-      name: "Node js",
+      name: "Next js",
     },
     {
       name: "React js",
@@ -32,20 +35,12 @@ const TechStack = () => {
     {
       name: "Vanilla js",
     },
-    {
-      name: "Javascript",
-    },
+
     {
       name: "Django",
     },
     {
-      name: "Python",
-    },
-    {
-      name: "C",
-    },
-    {
-      name: "SQL",
+      name: "Flask",
     },
     {
       name: "Python",
@@ -55,6 +50,24 @@ const TechStack = () => {
     },
     {
       name: "SQL",
+    },
+    {
+      name: "Git",
+    },
+    {
+      name: "Github",
+    },
+    {
+      name: "HTML",
+    },
+    {
+      name: "CSS",
+    },
+    {
+      name: "Bootstrap",
+    },
+    {
+      name: "TailwindCSS",
     },
   ];
 
