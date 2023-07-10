@@ -26,11 +26,11 @@ const About = () => {
             </Flip>
             <Fade right>
               <p>
-                Welcome to my portfolio! I am a React developer with a passion
+                Welcome to my portfolio! I am a Software developer with a passion
                 for creating dynamic and responsive user interfaces. With
                 experience in building complex web applications and mobile apps,
                 I have a deep understanding of the React ecosystem and its
-                various tools and libraries.{" "}
+                various tools and libraries as well as its incorporation with NodeJs{" "}
               </p>
         
               <p>

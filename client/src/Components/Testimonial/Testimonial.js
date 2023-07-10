@@ -4,6 +4,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Zoom from "react-reveal/Zoom";
+import Test1 from '../../image/Test1.png'
+import Test2 from '../../image/Test2.png'
+import Test3 from '../../image/Test3.png'
+import Test4 from '../../image/Test4.png'
+import Test5 from '../../image/Test5.png'
+import Test6 from '../../image/Test6.png'
 
 
 const Testimonial = () => {
@@ -11,39 +17,39 @@ const Testimonial = () => {
     const data = [
       {
         name: "Debby",
-        position: "Operations Officer",
+        position: "Product manager",
         des: "I like Amara's work and her commitment in giving out the best.",
-        img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
+        img: Test1,
       },
       {
         name: "Torrie",
         position: "UI/UX Designer",
         des: "Amara is always patient and ready to give you a great work.",
-        img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
+        img: Test2,
       },
       {
         name: "Tega",
-        position: "Operations Officer",
+        position: "ICT officer",
         des: "I like her way of relating to clients and making sure you are satisfied.",
-        img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
+        img: Test3,
       },
       {
         name: "Mistura",
-        position: "Operations Officer",
+        position: "Brand manager",
         des: "I enjoyed my time working together with her. Her energy is everything. ",
-        img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
+        img: Test4,
       },
       {
         name: "Rajeev",
-        position: "Operations Officer",
-        des: "Job well done, I'm definitely coming back with more jobs for you. Guys, she's the real deal.",
-        img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
+        position: "Product designer",
+        des: "Job well done, I'm definitely coming back with more jobs for you.",
+        img: Test5,
       },
       {
         name: "Coded Libra",
-        position: "Operations Officer",
+        position: "Project manager",
         des: "She sure knows how to make a client very happy. I highly recommend.",
-        img: "https://www.pexels.com/photo/portrait-of-a-girl-with-a-white-headscarf-13104472/",
+        img: Test6,
       },
     ];
 
@@ -105,10 +111,10 @@ const Testimonial = () => {
                     alt="testimonial pics"
                     className="center-image"
                   />
-                  <p>{item.name}</p>
+                  <p className='name'>{item.name}</p>
                   <p>{item.des}</p>
 
-                  <p>{item.position}</p>
+                  <p className='position'>{item.position}</p>
                 </div>
               </div>
             </Zoom>

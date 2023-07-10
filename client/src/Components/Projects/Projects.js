@@ -24,29 +24,11 @@ const Projects = () => {
           },
         ],
       },
-      {
-        name: "My Portfolio",
-        des: "Built with React library. My personal portfolio showcasing my educational qualification, work experiences, skills and other projects",
-        projectlink: "https://github.com/amarapeace/",
-        techused: [
-          {
-            techname: "React",
-          },
-          {
-            techname: "Javascript",
-          },
-          {
-            techname: "CSS",
-          },
-          {
-            techname: "HTML",
-          },
-        ],
-      },
+
       {
         name: "DJ suggest desk",
         des: "Built with NextJs, a fully functional website for clubbers to communicate with a DJ and suggest songs to be played.",
-        projectlink: "https://github.com/amarapeace/",
+        projectlink: "https://instant-play.netlify.app/",
         techused: [
           {
             techname: "Next js",
@@ -63,28 +45,29 @@ const Projects = () => {
         ],
       },
       {
-        name: "Softwork",
-        des: "Built with Flask, a testing platform where students and working professionals can put their softskills to test.",
-        projectlink: "https://github.com/amarapeace/",
+        name: "Schedule-Pro",
+        des: "A task management and scheduling website",
+        projectlink: "https://schedule-pro.netlify.app/",
         techused: [
           {
-            techname: "Flask",
+            techname: "React",
           },
           {
-            techname: "Javascript",
-          },
-          {
-            techname: "CSS",
+            techname: "TailwindCss",
           },
           {
             techname: "HTML",
           },
+          {
+            techname: "CSS",
+          },
         ],
       },
+
       {
         name: "Multi Authored Blog",
         des: "Built with Django in a team of 6 made up of designers, frontend and Backend engineers, a multi authored blog.",
-        projectlink: "https://github.com/amarapeace/",
+        projectlink: "https://blogga-team6.netlify.app/",
         techused: [
           {
             techname: "Django",
@@ -101,9 +84,28 @@ const Projects = () => {
         ],
       },
       {
+        name: "My Portfolio",
+        des: "Built with React library. My personal portfolio showcasing my educational qualification, work experiences, skills and other projects",
+        projectlink: "https://github.com/amarapeace/Portfolio-website",
+        techused: [
+          {
+            techname: "React",
+          },
+          {
+            techname: "Javascript",
+          },
+          {
+            techname: "CSS",
+          },
+          {
+            techname: "HTML",
+          },
+        ],
+      },
+      {
         name: "Dodov site clone",
         des: "A static website that had me doing a lot of manipulations with Javascript.",
-        projectlink: "https://github.com/chihannah/",
+        projectlink: "https://jegedenifemi.github.io/dodov.dev/",
         techused: [
           {
             techname: "Javascript",
@@ -119,12 +121,27 @@ const Projects = () => {
           },
         ],
       },
-
       {
-        name: "AirBnB site clone",
-        des: "A static website built with HTML, CSS and Javascript as one of the projects for ALX foundational stage.",
-        projectlink: "https://github.com/amarapeace/",
+        name: "Twitter home page clone",
+        des: "A beginner project with only HTML and CSS",
+        projectlink: "https://jegedenifemi.github.io/Twitter-Home-Replica/",
         techused: [
+          {
+            techname: "HTML",
+          },
+          {
+            techname: "CSS",
+          },
+        ],
+      },
+      {
+        name: "Softwork",
+        des: "Built with Flask, a testing platform where students and working professionals can put their softskills to test.",
+        projectlink: "https://github.com/Obelem/soft_work",
+        techused: [
+          {
+            techname: "Flask",
+          },
           {
             techname: "Javascript",
           },
@@ -138,16 +155,19 @@ const Projects = () => {
       },
 
       {
-        name: "Twitter home page clone",
-        des: "A beginner project with only HTML and CSS",
-        projectlink: "https://github.com/amarapeace/",
+        name: "Term77",
+        des: "A Terms and Conditions generator for business owners.",
+        projectlink: "https://github.com/zuri-training/Proj-T_C_GEN__Team-77",
         techused: [
           {
-            techname: "HTML",
+            techname: "Javascript",
           },
           {
             techname: "CSS",
-          },          
+          },
+          {
+            techname: "HTML",
+          },
         ],
       },
     ];

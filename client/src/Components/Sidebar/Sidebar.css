@@ -11,10 +11,12 @@
     color: white;
     position: fixed;
 
+
 }
 
 .sidebar-expand {
     width: 230px;
+    padding-bottom: 20px;
     
 }
 
