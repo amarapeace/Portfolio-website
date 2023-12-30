@@ -6,7 +6,7 @@ import Projects from "./Components/Projects/Projects";
 import WorkExperience from "./Components/WorkExperience/WorkExperience";
 import Education from "./Components/Education/Education";
 import Testimonial from "./Components/Testimonial/Testimonial";
-import Contact from "./Components/Contact/Contact";
+import Contact from "./Components/Contact/Contact1";
 import ScrollToTop from "react-scroll-to-top";
 import "./App.css";
 import NavbarMobile from "./Components/Sidebar/NavbarMobile";

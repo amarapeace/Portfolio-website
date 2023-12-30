@@ -31,9 +31,11 @@ const Home = ({ theme, changeTheme }) => {
               options={{
                 strings: [
                   "Software Developer",
-                  "Frontend Web Developer",
+                  "Frontend Developer",
+                  "Fullstack Instructor",
                   "REACT Developer",
-                  "Great Collaborator"
+                  "Webflow Developer"
+                  
                 ],
                 autoStart: true,
                 loop: true,

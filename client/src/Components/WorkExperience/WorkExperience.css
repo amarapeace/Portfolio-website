@@ -1,7 +1,7 @@
 .tech-skills p{
     background-color: brown;
     text-align: center;
-    color: white;
+    color: rgb(221, 189, 189);
     border-radius: 90px;
     padding: 10px;
 }
@@ -11,7 +11,8 @@
 }
 
 .date-class {
-    color: black;
+    color: bisque;
+    font-style: oblique;
 }
 
 #dark .date-class {

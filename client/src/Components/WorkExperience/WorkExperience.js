@@ -58,10 +58,8 @@ const WorkExperience = () => {
         {
           techname: "Webflow",
         },
-        
       ],
     },
-    
   ];
 
   const colors = [
@@ -84,7 +82,7 @@ const WorkExperience = () => {
           {data.map((item, index) => (
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: colors[index], color: "#fff" }}
+              contentStyle={{ background: colors[index], color: "burlywood" }}
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(33, 150, 243)",
               }}
@@ -93,7 +91,7 @@ const WorkExperience = () => {
               iconStyle={{ background: colors[index], color: "#fff" }}
               icon={<MdGroupWork />}
             >
-              <h3 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title fst-italic">
                 {item.companyname}
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
