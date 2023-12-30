@@ -40,7 +40,7 @@ const TechStack = () => {
       name: "Django",
     },
     {
-      name: "Flask",
+      name: "Postgresql",
     },
     {
       name: "Python",
