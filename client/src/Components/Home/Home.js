@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import MyCV from './CV.pdf'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsSunFill } from "react-icons/bs";
-import Fade from "react-reveal/Fade";
+import {Fade} from "react-awesome-reveal";
 import { Link } from "react-scroll";
 
 
@@ -43,7 +43,7 @@ const Home = ({ theme, changeTheme }) => {
             />
           </h3>
         </Fade>
-        <Fade bottom>
+        <Fade down>
           <div className="button-for-action">
             <Link
               to="contact"

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./TechStack.css";
-import Fade from 'react-reveal/Fade'
-import Zoom from 'react-reveal/Zoom'
+import {Fade} from 'react-awesome-reveal'
+import {Zoom} from 'react-awesome-reveal'
 
 const TechStack = () => {
   const colors = [
@@ -84,36 +84,36 @@ const TechStack = () => {
       </div>
       <div className="row">
         {data.slice(0, showMoreTechStack).map((item, index) => (
-          <Fade right>
-            <div
-              className="col-xl-4 col-lg-4 col-md-6 col-md-6 col-sm-12"
-              key={index}
-            >
-              <div
-                className={
-                  index === 0
-                    ? "tech-content tech-content-marked"
-                    : "tech-content"
-                }
+          <div
+                className="col-xl-4 col-lg-4 col-md-6 col-md-6 col-sm-12"
+                key={index}
               >
-                <span
-                  className="tech-number"
-                  style={{ backgroundColor: colors[index] }}
+            <Fade direction="right" duration={2000} triggerOnce={true}>
+              
+                <div
+                  className={
+                    index === 0
+                      ? "tech-content tech-content-marked"
+                      : "tech-content"
+                  }
                 >
-                  {index + 1}
-                </span>
-                <p>{item.name}</p>
+                  <span
+                    className="tech-number"
+                    style={{ backgroundColor: colors[index] }}
+                  >
+                    {index + 1}
+                  </span>
+                  <p>{item.name}</p>
+                </div>
+            </Fade>
               </div>
-            </div>
-          </Fade>
+          
         ))}
       </div>
       {showMoreTechStack >= data.length ? null : (
-        <Zoom>
-          <span className="load-more-tech-stack" onClick={loadMore}>
-            Load More
-          </span>
-        </Zoom>
+        <span className="load-more-tech-stack" onClick={loadMore}>
+          <Zoom>Load More</Zoom>
+        </span>
       )}
     </div>
   );

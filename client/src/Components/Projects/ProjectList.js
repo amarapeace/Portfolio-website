@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FcExpand, FcCollapse } from "react-icons/fc";
 import "./Projects.css";
-import Zoom from 'react-reveal/Zoom'
+import {Zoom} from 'react-awesome-reveal'
 
 const ProjectList = ({ name, des, projectlink, techused }) => {
   const [show, setShow] = useState(false);
@@ -10,7 +10,7 @@ const ProjectList = ({ name, des, projectlink, techused }) => {
     setShow(!show);
   };
   return (
-    <Zoom>
+    <Zoom duration={2000} triggerOnce={true}>
       <div
         className={show ? "project-list-opened project-list" : "project-list"}
         onClick={handleShowandCollapse}

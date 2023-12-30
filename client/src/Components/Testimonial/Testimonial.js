@@ -3,7 +3,7 @@ import './Testimonial.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Zoom from "react-reveal/Zoom";
+import {Zoom} from "react-awesome-reveal";
 import Test1 from '../../image/Test1.png'
 import Test2 from '../../image/Test2.png'
 import Test3 from '../../image/Test3.png'
@@ -57,7 +57,7 @@ const Testimonial = () => {
     var settings = {
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 4000,
       slidesToShow: 3,
       autoplay: true,
       slidesToScroll: 4,
@@ -103,7 +103,7 @@ const Testimonial = () => {
       <div className="testimonial-slider">
         <Slider {...settings}>
           {data.map((item, index) => (
-            <Zoom>
+            <Zoom duration={2000} triggerOnce={true}>
               <div className="content-slider-main">
                 <div className="content-slider" key={index}>
                   <img
@@ -111,10 +111,10 @@ const Testimonial = () => {
                     alt="testimonial pics"
                     className="center-image"
                   />
-                  <p className='name'>{item.name}</p>
+                  <p className="name">{item.name}</p>
                   <p>{item.des}</p>
 
-                  <p className='position'>{item.position}</p>
+                  <p className="position">{item.position}</p>
                 </div>
               </div>
             </Zoom>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Contact.css";
 import { RiSendPlaneFill } from "react-icons/ri";
-import Fade from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -54,18 +54,18 @@ const Contact1 = () => {
   return (
     <div className="container contact-section" id="contact">
       <div className="row">
-        <Fade bottom>
-          <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
+        <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
+          <Fade direction="down" duration={2000} triggerOnce={true}>
             <div className="contact-form-image">
               <img
                 src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
               />
             </div>
-          </div>
-        </Fade>
-        <Fade right>
-          <div className="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+          </Fade>
+        </div>
+        <div className="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+          <Fade direction="right" duration={2000} triggerOnce={true}>
             <div className="contact-form-design">
               <div className="text-center">
                 <h5>Contact Me</h5>
@@ -126,8 +126,8 @@ const Contact1 = () => {
                 </div>
               </form>
             </div>
-          </div>
-        </Fade>
+          </Fade>
+        </div>
       </div>
       <ToastContainer autoClose={8000} />
     </div>

@@ -59,7 +59,6 @@ const Education = () => {
                 {item.degree}
               </h5>
 
-              {/* <p>{item.year}</p> */}
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
